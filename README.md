@@ -29,20 +29,6 @@ The application leverages a powerful multi-model approach:
 *   **Dark/Light Mode:** Fully responsive UI with seamless theme switching.
 *   **Export Tools:** Download individual images, copy prompts to clipboard, or export the entire batch as a ZIP file.
 
-## 📸 Screenshots
-
-### 1. Select Product
-*Upload a new reference image or choose a previously saved item from your personal catalog.*
-![Select Product Interface](./screenshots/1_select_product.png)
-
-### 2. Configure Settings
-*Define your vision with the Theme and Product Details. Select styles, model preferences, and aspect ratios.*
-![Configuration Controls](./screenshots/2_configure_settings.png)
-
-### 3. Studio Ready
-*The interface is primed and ready. The reference image is loaded, and the AI is standing by to generate your assets.*
-![Studio Ready State](./screenshots/3_studio_ready.png)
-
 ## 🛠️ Tech Stack
 
 *   **Frontend:** React 19, TypeScript
@@ -59,7 +45,7 @@ Follow these instructions to run Virtual Studio on your local machine.
 ### Prerequisites
 
 *   **Node.js**: Ensure you have Node.js (v18 or higher) installed.
-*   **Google API Key**: You need a valid API key from [Google AI Studio](https://aistudio.google.com/).
+*   **Google API Key**: You need a valid API key.
     *   *Note: Ensure your API key has access to the `gemini-2.5-flash` and `gemini-2.5-flash-image` models.*
 
 ### Installation Steps
@@ -76,11 +62,11 @@ Follow these instructions to run Virtual Studio on your local machine.
     ```
 
 3.  **Configure Environment Variables**
-    Create a new file named `.env` in the root of your project directory. Add your Google AI API key to this file:
+    Create a new file named `.env` in the root of your project directory. Add your Google API key to this file:
     ```
-    API_KEY="YOUR_GOOGLE_AI_API_KEY"
+    API_KEY="YOUR_GOOGLE_API_KEY"
     ```
-    *Replace `YOUR_GOOGLE_AI_API_KEY` with your actual key starting with `AIza...`*
+    *Replace `YOUR_GOOGLE_API_KEY` with your actual key starting with `AIza...`*
 
 4.  **Run the Development Server**
     ```bash
