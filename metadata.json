@@ -1,0 +1,5 @@
+{
+  "name": "Virtual Studio",
+  "description": "An application to generate creative product images by providing a reference image and a theme prompt, powered by advanced AI.",
+  "requestFramePermissions": []
+}
