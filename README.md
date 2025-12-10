@@ -31,11 +31,17 @@ The application leverages a powerful multi-model approach:
 
 ## 📸 Screenshots
 
-*The main interface of Virtual Studio, showing the control panel on the left and the image generation stage on the right.*
-![Virtual Studio Interface](./screenshots/virtual-studio-main.png)
+### 1. Select Product
+*Upload a new reference image or choose a previously saved item from your personal catalog.*
+![Select Product Interface](./screenshots/1_select_product.png)
 
-*Generated image results in a carousel view with action buttons for downloading, sharing, and saving to the catalog.*
-![Generated Image Carousel](./screenshots/virtual-studio-results.png)
+### 2. Configure Settings
+*Define your vision with the Theme and Product Details. Select styles, model preferences, and aspect ratios.*
+![Configuration Controls](./screenshots/2_configure_settings.png)
+
+### 3. Studio Ready
+*The interface is primed and ready. The reference image is loaded, and the AI is standing by to generate your assets.*
+![Studio Ready State](./screenshots/3_studio_ready.png)
 
 ## 🛠️ Tech Stack
 
@@ -74,7 +80,7 @@ Follow these instructions to run Virtual Studio on your local machine.
     ```
     API_KEY="YOUR_GOOGLE_AI_API_KEY"
     ```
-    Replace `"YOUR_GOOGLE_AI_API_KEY"` with your actual key.
+    *Replace `YOUR_GOOGLE_AI_API_KEY` with your actual key starting with `AIza...`*
 
 4.  **Run the Development Server**
     ```bash
